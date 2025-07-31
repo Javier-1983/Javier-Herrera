@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javier Herrera - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Javier Herrera
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          j.herrerabeltran@uandresbello.edu
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          ‪+56955240259‬
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">Acerca de</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+          <a class="topmenu" href="#Projectos">Detalles del Proyecto</a>
+          <a class="topmenu" href="#Habilidades">Habilidades</a>
+          <a class="topmenu" href="#Recomendaciones">Recomendaciones</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://cdn.pixabay.com/photo/2024/04/13/07/05/engineer-8693434_1280.png" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hola, Yo soy Javier Herrera! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+
+          </h1>
+          <p>
+            Especialista en Abastecimiento y Finanzas con 18 años de experiencia en el 
+            área de Finanzas, Logística Naval, Contabilidad Gubernamental, especialista 
+            Supervisor nivel Intermedio en el uso de plataforma Mercado Público. Cuento 
+            con una larga trayectoria, dirigiendo grupos de trabajo, en proyectos como 
+            reconstrucción naval, mantenimiento de Unidades y Reparticiones del Ámbito Naval.            
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="Habilidades">
+      <h2>Habilidades</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>SECP</h6>
+          <p>5 años de experiencia</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>SALINO</h6>
+          <p>12 años de experiencia</p>
+        </div>  
+
+        <div class="skill">
+            <img src="html_finalprojimages/node.png"/>
+            <h6>Mercado Público</h6>
+            <p>15 años de experiencia</p>
+          </div>  
+
+          <div class="skill">
+            <img src="html_finalprojimages/react.png"/>
+            <h6>React</h6>
+            <p>3 años de experiencia</p>
+          </div>  
+
+          <div class="skill">
+            <img src="html_finalprojimages/flash.png"/>
+            <h6>Flash</h6>
+            <p>4 años de experiencia</p>
+          </div>  
+          
+           <!--skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="Proyectos" id="Proyectos">
+      <h2>
+        Proyectos
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Compras Públicas</h3>
+            <ul>
+              <li>Optimización en la adquisición de materiales para el mantenimiento y sostenimiento, de acuerdo a la Ley N°19.886.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Ejecución Presupuestaria</h3>
+            <ul>
+              <li>Correcto uso de la distribución presupuestaria, aplicando las instrucciones del Clasificador de Gastos.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Jefatura de Proyectos</h3>
+            <ul>
+              <li>Control administrativo y del personal a cargo del Departamento de Abastecimiento y Finanzas </li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="Recomendaciones">
+      <h2>Recomendaciones</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Al trabajar con Javier aprendí de su experiencia en la Optimización
+          de la gestión de inventarios mediante sistemas integrados, permitiendo
+          prever la demanda y reducir costos logísticos, evitando quiebres de stock.          
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Javier tiene las capacidades de negociar contratos de suministro estratégicos
+          considerando cláusulas flexibles frente a variaciones económicas, tipos de
+          cambio y plazos, fortaleciendo la continuidad operativa y financiera.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Javier ha sido capaz de implementar los análisis financieros continuos con 
+          indicadores de rentabilidad, costos operativos y eficiencia de abastecimiento, 
+          asegurando los objetivos comerciales y presupuestarios de la organización.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Dejar una recomendacion</legend>          
+          <input type="text" placeholder="Nombre (Opcioonal)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Mensaje"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Entregar</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>!Recomendacion enviada con exito!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
